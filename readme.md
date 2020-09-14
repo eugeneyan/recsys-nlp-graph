@@ -2,7 +2,7 @@
 
 Code for personal project on simple recsys via matrix factorization (part 1), and nlp and graph techniques (part 2).
 
-Blog posts:  
+Associated articles:  
 - Part 1: [Building a Strong Baseline Recommender in PyTorch](https://eugeneyan.com/writing/recommender-systems-baseline-pytorch/)  
 - Part 2: [Beating the Baseline Recommender with Graph & NLP in Pytorch](https://eugeneyan.com/writing/recommender-systems-graph-and-nlp-pytorch/)
 
@@ -214,4 +214,3 @@ Oddly though, the matrix factorization approach still exhibits the effect of “
 ![](https://raw.githubusercontent.com/eugeneyan/recsys-nlp-graph/master/images/implementation7-learning-curve.png)
 
 _I wonder if this is due to using the same embeddings for both center and context._
-
