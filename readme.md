@@ -1,6 +1,6 @@
 # recsys-nlp-graph
 
-Code for personal project on simple recsys via matrix factorization (part 1), and nlp and graph techniques (part 2).
+**Undocumented** code for personal project on simple recsys via matrix factorization (part 1), and nlp and graph techniques (part 2). Sharing as part of meet-up follow along.
 
 Associated articles:  
 - Part 1: [Building a Strong Baseline Recommender in PyTorch](https://eugeneyan.com/writing/recommender-systems-baseline-pytorch/)  
