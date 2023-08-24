@@ -266,7 +266,7 @@ class Sequences:
         for center_idx, center in enumerate(sequence):
             for i in range(-window, window + 1):
                 context_idx = center_idx + i
-                if context_idx > 0 and context_idx < len(sequence) and center != sequence[
+                if context_idx >= 0 and context_idx < len(sequence) and center != sequence[
                     context_idx] and np.random.rand() < self.discard_probs[sequence[context_idx]]:
                     context = sequence[context_idx]
                     center_meta = self.get_meta(center)

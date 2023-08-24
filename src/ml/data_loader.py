@@ -178,7 +178,7 @@ class Sequences:
         for center_idx, node in enumerate(sequence):
             for i in range(-window, window + 1):
                 context_idx = center_idx + i
-                if context_idx > 0 and context_idx < len(sequence) and node != sequence[
+                if context_idx >= 0 and context_idx < len(sequence) and node != sequence[
                     context_idx] and np.random.rand() < self.discard_probs[sequence[context_idx]]:
                     pairs.append((node, sequence[context_idx]))
 
