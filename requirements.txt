@@ -9,7 +9,7 @@ cPython==0.0.5
 decorator==4.4.1
 docutils==0.15.2
 gensim==3.8.1
-idna==2.8
+idna==3.7
 ipykernel==5.1.3
 ipython==8.10.0
 ipython-genutils==0.2.0
